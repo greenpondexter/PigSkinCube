@@ -1,0 +1,15 @@
+C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSkinCube\bin\PigSkinCube.dll.config
+C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSkinCube\bin\PigSkinCube.dll
+C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSkinCube\bin\PigSkinCube.pdb
+C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSkinCube\bin\Newtonsoft.Json.dll
+C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSkinCube\bin\System.Net.Http.Formatting.dll
+C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSkinCube\bin\System.Web.Cors.dll
+C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSkinCube\bin\System.Web.Http.Cors.dll
+C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSkinCube\bin\System.Web.Http.dll
+C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSkinCube\bin\Newtonsoft.Json.xml
+C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSkinCube\bin\System.Net.Http.Formatting.xml
+C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSkinCube\bin\System.Web.Http.xml
+C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSkinCube\bin\System.Web.Http.Cors.xml
+C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSkinCube\obj\Debug\PigSkinCube.csprojResolveAssemblyReference.cache
+C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSkinCube\obj\Debug\PigSkinCube.dll
+C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSkinCube\obj\Debug\PigSkinCube.pdb

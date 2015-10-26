@@ -1,0 +1,1 @@
+console.error("Error: SyntaxError: Unexpected token ﻿ while parsing json file C:\\Users\\christopher.workman\\Projects\\Programming\\PigSkinCube\\PigSkinCube\\PigSkinCube\\package.json");
