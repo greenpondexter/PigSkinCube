@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PigSkinCube", "PigSkinCube\PigSkinCube.csproj", "{FC442735-43F8-49CF-AD78-5BD5E9E2C09F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PigSkinCubeController", "PigSkinCubeController\PigSkinCubeController.csproj", "{6214D4B9-9DCB-430A-9E46-CF67F8BFF84E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PigSkinCubeAPI", "PigSkinCubeAPI\PigSkinCubeAPI.csproj", "{E92BD73B-6A82-48BC-A00D-F35CE630A71A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{FC442735-43F8-49CF-AD78-5BD5E9E2C09F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC442735-43F8-49CF-AD78-5BD5E9E2C09F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC442735-43F8-49CF-AD78-5BD5E9E2C09F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6214D4B9-9DCB-430A-9E46-CF67F8BFF84E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6214D4B9-9DCB-430A-9E46-CF67F8BFF84E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6214D4B9-9DCB-430A-9E46-CF67F8BFF84E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6214D4B9-9DCB-430A-9E46-CF67F8BFF84E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E92BD73B-6A82-48BC-A00D-F35CE630A71A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E92BD73B-6A82-48BC-A00D-F35CE630A71A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E92BD73B-6A82-48BC-A00D-F35CE630A71A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E92BD73B-6A82-48BC-A00D-F35CE630A71A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -13,3 +13,14 @@ C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSki
 C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSkinCube\obj\Debug\PigSkinCube.csprojResolveAssemblyReference.cache
 C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSkinCube\obj\Debug\PigSkinCube.dll
 C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSkinCube\obj\Debug\PigSkinCube.pdb
+C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSkinCube\bin\Owin.dll
+C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSkinCube\bin\System.Web.Http.Owin.dll
+C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSkinCube\bin\System.Web.Http.Owin.xml
+C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSkinCube\bin\EntityFramework.dll
+C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSkinCube\bin\EntityFramework.SqlServer.dll
+C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSkinCube\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSkinCube\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSkinCube\bin\EntityFramework.xml
+C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSkinCube\bin\EntityFramework.SqlServer.xml
+C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSkinCube\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\christopher.workman\Projects\Programming\PigSkinCube\PigSkinCube\PigSkinCube\bin\Microsoft.AspNet.Identity.EntityFramework.xml

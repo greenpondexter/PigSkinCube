@@ -1,0 +1,731 @@
+#MIMasterContainer {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.MIDashboardContainer {
+    width: 680px;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
+.highlightWhichDashboard {
+    color: red !important;  
+}
+
+#MIDashboardContainer0 {
+    margin-top: 10px; 
+    height: 135px; 
+}
+
+
+#applyButtonHolder {
+    margin-left: 20px; 
+}
+
+#applyButton {
+    width: 120px; 
+    
+    border-radius: 2px; 
+    font-weight: bold;
+    
+    
+}
+
+.notReady {
+    
+    border: 1px solid #858585;
+    color: #5C5C5C;
+    opacity: .3;
+    
+}
+
+.ready {
+  color: #A30000; 
+  background: #fdeeb3;
+  font-weight: bold;
+  border: 1px solid #ff9d00;
+  opacity: 1; 
+  
+}
+
+.MIDashboardSelection{
+	color: #f9f9f9; 
+}
+
+
+
+#labelHolder {
+    height: 50px; 
+    width: 700px; 
+}
+
+#previousPeriodTextBox, #currentPeriodTextBox {
+    background-Color: #f9f9f9; 
+    width: 300px; 
+}
+
+.PeriodTextBoxTitle {
+    font-family: Arial; 
+    font-weight: bold; 
+    font-size: 12px;
+}
+
+#previousPeriodSlider {
+     
+}
+
+#amount {
+    height: 50px; 
+    width: 200px; 
+    background-color:#f9f9f9; 
+}
+
+
+#yearHolder{
+	width: 600px;
+	margin-left: auto;
+    margin-right: auto; 	
+    margin-top: 25px; 
+	height: 40px; 
+}
+
+.year {
+width: 194px;
+border-bottom-style: solid;
+border-width: 1px;
+border-color: #D1D1D1;
+text-align: left; 
+float: left; 
+margin-right: 5px; 
+ 
+}
+
+.opaqueRow {
+ /*opacity: .8;*/ 
+}
+
+#sliderHolder {
+	width: 590px;
+	margin-left: auto;
+    margin-right: auto; 	
+    margin-top: 5px; 
+	height: 110px; 
+   
+}
+
+#MIDashboardContainer1 {
+    margin-top: 35px; 
+}
+
+#slider-range{
+	width: 585px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+
+
+
+#MIDashboardContainer2 {
+    margin-top: 35px; 
+    height: 120px; 
+}
+
+#PMPMStatsTitleHolder {
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #D1D1D1;
+}
+
+#PMPMStatsTitle {
+     
+    font-family: Arial; 
+    font-weight: bold; 
+    font-size: 20px; 
+    padding-bottom: 15px; 
+
+}
+
+
+
+#TrendStatsHolder {
+    width: 640px;
+    margin-left: auto;
+    margin-right: auto; 
+    overflow:hidden; 
+    position: relative; 
+}
+
+
+#PMPM2012Holder {
+    margin-top: 15px; 
+    height: 80px; 
+    width: 200px; 
+    float: left;
+    background-color: #E8E8E8; 
+    border: solid;
+    border-width: 1px;
+    border-color: #9c9c9c; 
+    opacity: .8; 
+    position: relative;
+ 
+    
+    
+}
+
+#PMPM2012 {
+    margin-top: 12px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center; 
+    width: 180px; 
+    font-family: Arial; 
+    font-weight: bold; 
+    font-size: 15px; 
+     
+}
+
+#Value2012 {
+    margin-top: 8px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center; 
+    width: 100px; 
+    font-family: Arial; 
+    font-weight: bold; 
+    font-size: 28px; 
+}
+
+#PMPM2013Holder {
+    margin-top: 15px; 
+    margin-left: 20px; 
+    height: 80px; 
+    width: 200px; 
+    display: inline-block;
+    background-color: #E8E8E8; 
+    border: solid;
+    border-width: 1px;
+    border-color: #9c9c9c; 
+    opacity: .8; 
+    position: relative;
+  
+    
+  
+}
+
+#PMPM2013 {
+    margin-top: 12px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center; 
+    width: 180px;  
+    font-family: Arial; 
+    font-weight: bold; 
+    font-size: 15px; 
+}
+
+#Value2013 {
+    margin-top: 8px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center; 
+    width: 100px; 
+    font-family: Arial; 
+    font-weight: bold; 
+    font-size: 28px; 
+}
+
+#PMPMTrendHolder {
+    margin-top: 15px;
+    height: 80px;  
+    width: 200px; 
+    float: right; 
+    background-color: #E8E8E8; 
+    border: solid;
+    border-width: 1px;
+    border-color: #9c9c9c; 
+    opacity: .8; 
+    position: relative; 
+    
+    
+}
+
+#PMPMTrend {
+    margin-top: 12px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center; 
+    width: 180px; 
+    font-family: Arial; 
+    font-weight: bold; 
+    font-size: 15px; 
+}
+
+#ValueTrend {
+    margin-top: 8px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100px; 
+    text-align: center; 
+    font-family: Arial; 
+    font-weight: bold; 
+    font-size: 28px; 
+}
+
+#container3 {
+    height: 180px;
+}
+
+.driverHolder {
+    opacity: .8; 
+     
+}
+
+#PMPMSettingHolder {
+    width: 650px;
+    overflow:hidden; 
+    position: relative; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#PMPMSettingHolder .driverHolder {
+    position: relative; 
+   
+}
+
+#PMPMSettingTitle {
+    margin-top: 20px; 
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #D1D1D1; 
+    font-family: Arial; 
+    font-weight: bold; 
+    font-size: 20px; 
+    padding-bottom: 15px; 
+}
+
+#PMPMSettingDescription {
+    font-family: Arial;
+    font-style: italic; 
+    font-size: 12px; 
+
+}
+
+#highCostHolder {
+    margin-top: 20px; 
+    height: 80px; 
+    width: 158px; 
+    vertical-align: top;  
+    background-color: #E8E8E8; 
+    border: solid;
+    border-width: 1px;
+    border-color: #9c9c9c;
+    display: inline-block; 
+    position: relative; 
+}
+
+#highCost {
+    font-family: Arial; 
+    font-weight: bold; 
+    font-size: 15px; 
+    margin-top: 12px; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px; 
+    text-align: center; 
+}
+
+#highCostValue {
+    margin-top: 6px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100px;  
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px; 
+    text-align: center;  
+    font-family: Arial; 
+    font-weight: bold; 
+    font-size: 28px;  
+
+}
+
+#utilizationHolder {
+    width: 158px; 
+    height: 80px; 
+    margin-top: 20px; 
+    vertical-align: top;  
+    
+    font-family: Arial; 
+    font-weight: bold; 
+    font-size: 15px; 
+    background-color: #E8E8E8; 
+    border: solid;
+    border-width: 1px;
+    border-color: #9c9c9c;
+    display: inline-block; 
+
+}
+
+#utilization {
+    font-family: Arial; 
+    font-weight: bold; 
+    font-size: 15px; 
+    margin-top: 12px; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px; 
+    text-align: center; 
+}
+
+#utilizationValue {
+    margin-top: 6px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100px;  
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px; 
+    text-align: center;  
+    font-family: Arial; 
+    font-weight: bold; 
+    font-size: 28px; 
+}
+
+#costunitHolder {
+    width: 158px; 
+    height: 80px; 
+    margin-top: 20px; 
+    vertical-align: top;  
+   
+    font-family: Arial; 
+    font-weight: bold; 
+    font-size: 15px; 
+    background-color: #E8E8E8; 
+    border: solid;
+    border-width: 1px;
+    border-color: #9c9c9c;
+    display: inline-block; 
+}
+
+#costunit {
+    font-family: Arial; 
+    font-weight: bold; 
+    font-size: 15px; 
+    margin-top: 12px; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px; 
+    text-align: center;  
+}
+
+#costunitValue {
+    margin-top: 6px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100px;  
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px; 
+    text-align: center;  
+    font-family: Arial; 
+    font-weight: bold; 
+    font-size: 28px; 
+}
+
+#oopHolder {
+    width: 158px; 
+    height: 80px; 
+    margin-top: 20px; 
+    vertical-align: top;  
+   
+    background-color: #E8E8E8; 
+    border: solid;
+    border-width: 1px;
+    border-color: #9c9c9c;
+    display: inline-block; 
+}
+
+#oop {
+    font-family: Arial; 
+    font-weight: bold; 
+    font-size: 15px; 
+    margin-top: 12px; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px; 
+    text-align: center;   
+}
+
+#oopValue {
+    margin-top: 6px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100px;  
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px; 
+    text-align: center;  
+    font-family: Arial; 
+    font-weight: bold; 
+    font-size: 28px; 
+}
+
+#enrollmentHolder {
+    margin-top: 20px; 
+    vertical-align: top;   
+    height: 80px; 
+    width: 158px; 
+    /*float: left;
+    float: right;*/
+    background-color: #E8E8E8; 
+    border: solid;
+    border-width: 1px;
+    border-color: #9c9c9c;
+    display: inline-block; 
+}
+
+
+
+#enrollment {
+    font-family: Arial; 
+    font-weight: bold; 
+    font-size: 15px; 
+    margin-top: 12px; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px; 
+    text-align: center; 
+}
+
+#enrollmentValue {
+    margin-top: 6px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100px;  
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px; 
+    text-align: center;  
+    font-family: Arial; 
+    font-weight: bold; 
+    font-size: 28px; 
+}
+
+#categoryTitle {
+    margin-top: 20px; 
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #D1D1D1; 
+    font-family: Arial; 
+    font-weight: bold; 
+    font-size: 20px; 
+    padding-bottom: 15px; 
+}
+
+
+#categoryChart {
+    margin-top: 25px; 
+
+}
+
+#categoryTable {
+    border: solid 1px;
+    border-radius: 3px; 
+    border-color: #9c9c9c; 
+   
+    border-collapse: collapse; 
+    width: 400px; 
+    margin-left: auto;
+    margin-right: auto; 
+    border-collapse: collapse; 
+    position: relative;  
+    opacity: .8;  
+
+}
+
+.titleRow {
+    border-bottom: solid 1px;
+    border-bottom-color: #9c9c9c; 
+    background-color: #d9d9d9; 
+}
+
+.titleRow > td {
+    
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 17px; 
+    text-align: center; 
+    color: #595959;
+    height: 25px; 
+    
+   
+}
+
+.tableOddRow > td {
+    
+    background-color: #E6EBF5;
+    /*background-color: #e8e8e8;*/
+    font-family: Arial;
+    font-size: 17px; 
+    
+    color: #595959;
+    height: 23px;
+    border-collapse: collapse; 
+}
+
+.tableEvenRow > td {
+    background-color:#FAFBFD;
+
+    /*background-color: #d9d9d9;*/
+    font-family: Arial;
+    
+    font-size: 17px; 
+    color: #595959;
+    height: 23px; 
+    border-collapse: collapse; 
+
+}
+
+.nameCol {
+    text-align: left;
+    border-right: solid 1px;
+    border-right-color: #9c9c9c; 
+    width: 320px;  
+    border-collapse: collapse; 
+}
+
+.valCol {
+    text-align: center;
+    border-collapse: collapse; 
+    
+}
+
+.titleValCol {
+    
+    text-align: center;
+    border-collapse: collapse; 
+    border-top: solid 1px;
+    border-top-color: #9c9c9c; 
+    
+
+}
+
+.chosen-container .chosen-drop {
+    position: static;
+}
+/*
+#dropdown {
+    margin-top: 50px; 
+    width: 238px; 
+}
+
+#dropdownselect {
+    width: 230px; 
+}
+
+#yearlyStatsHolder {
+    float: left; 
+    margin-top: 15px; 
+}
+
+
+#yearlyStatsTable {
+    font-family: Arial; 
+    border-spacing: 0;
+    border-style: solid; 
+    
+    border-width: .1px; 
+    border-radius: 3px; 
+    
+
+}
+
+#titleYearlyStatsTable, #titleTrendDriverTable {
+    text-align: center;
+    column-span: all; 
+    border-bottom-style: none; 
+    font-weight: bold;
+}
+
+#tableContainer {
+    height:280px; 
+    width: 800px; 
+}
+
+.odd {
+    
+    border-top-style: solid;
+    border-width: .05px; 
+    
+}
+
+.even {
+    border-top-style: solid; 
+    border-width: .05px; 
+    
+    
+
+}
+
+
+
+
+tr {
+    
+}
+
+.valueCells {
+    text-align: center;
+    
+    
+   
+}
+
+.titleCells {
+    text-align: center;
+    border-top-style: solid; 
+    border-top-width: .1px; 
+    
+
+}
+
+#barChartHolder {
+         
+    margin-top:10px; 
+
+
+}
+
+#barChart {
+    float: left;
+    width: 700px; 
+}
+
+#trendDriversHolder {
+    float: left; 
+    margin-right: 10px; 
+    margin-top: 13px; 
+}
+
+#trendDriverTable {
+    font-family: Arial; 
+    
+    height: 30px; 
+    visibility:hidden; 
+}
+
+.val {
+    width: 50px; 
+    text-align: center;
+}
+
+td {
+    color: red; 
+}
+
+*/
