@@ -106,6 +106,7 @@
     <Content Include="packages.config" />
     <Content Include="client\components\App.jsx" />
     <Content Include="package.json" />
+    <None Include="Properties\PublishProfiles\PigSkinCube.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

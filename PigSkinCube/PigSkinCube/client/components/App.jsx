@@ -2,7 +2,8 @@
 var React = require("react");
 var SearchBox = require("./SearchBox")
 
-//var dataSvrUrl = 'http://localhost:51764';
+//var dataSvrUrl = 'http://localhost:63314/';
+//var server = 'http://api.pigskincube.com/'
 //var cubeSvrUrl = dataSvrUrl + '/api/ValuesController/getCubeQuery';
 
 getState = function(){
@@ -25,6 +26,7 @@ var App = React.createClass({
       password: '',
       loginname: '',
       loginpassword: '',
+      server: 'http://api.pigskincube.com/'
     })
   },
 
@@ -54,7 +56,7 @@ var App = React.createClass({
   clickHandlerRegister: function(){
     $.ajax({
       type: "POST",
-      url: 'http://localhost:63314/api/Account/Register/',
+      url: this.state.server+'api/Account/Register/',
       data: JSON.stringify({Email: this.state.username, UserName: this.state.username, Password:this.state.password, ConfirmPassword:this.state.password}),
       contentType: "application/json; charset=utf-8",
 				success: function (_d) { alert(JSON.stringify(_d));}
@@ -64,7 +66,7 @@ var App = React.createClass({
   clickHandlerGetToken: function(){
     $.ajax({
       type: "POST",
-      url: 'http://localhost:63314/Token',
+      url: server+'Token',
       data: 'grant_type=password&username=' + this.state.loginname + '&password=' + this.state.loginpass,
       contentType: "Content-Type: application/x-www-form-urlencoded",
         success:  function (_d) { sessionStorage.setItem('api_token', _d.access_token) }
@@ -74,7 +76,7 @@ var App = React.createClass({
   clickHandlerCallAPI: function(){
     $.ajax({
       type: "GET",
-      url: 'http://localhost:63314/api/Values',
+      url: server+'api/Values',
       contentType: "Content-Type: application/x-www-form-urlencoded",
       beforeSend: function (xhr) {
                     xhr.setRequestHeader("Authorization", 'Bearer ' + sessionStorage.getItem('api_token'));
