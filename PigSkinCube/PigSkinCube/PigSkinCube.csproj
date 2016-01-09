@@ -102,6 +102,9 @@
   <ItemGroup>
     <Content Include="client\build\App.js" />
     <Content Include="client\build\bundle.js" />
+    <Content Include="client\build\bundleHome.js" />
+    <Content Include="client\build\Home.js" />
+    <Content Include="home.html" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="client\components\App.jsx" />

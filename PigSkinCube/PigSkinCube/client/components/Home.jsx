@@ -1,4 +1,4 @@
-﻿// Reacts
+// Reacts
 var React = require("react");
 var SearchBox = require("./SearchBox")
 
@@ -14,7 +14,7 @@ getState = function(){
 }
 
 // Component
-var App = React.createClass({
+var Home = React.createClass({
   displayName: "Home",
   propTypes: {},
 
@@ -69,10 +69,7 @@ var App = React.createClass({
       url: this.state.server+'Token',
       data: 'grant_type=password&username=' + this.state.loginname + '&password=' + this.state.loginpass,
       contentType: "Content-Type: application/x-www-form-urlencoded",
-        success:  function (_d) {
-          sessionStorage.setItem('api_token', _d.access_token)
-          window.location = 'home.html'
-          }
+        success:  function (_d) { sessionStorage.setItem('api_token', _d.access_token) }
       }).fail(function (_d) { alert(JSON.stringify(_d));});
   },
 
@@ -114,15 +111,10 @@ var App = React.createClass({
                         <div className = "row">
                             <div className="col-lg-4">
                               <SearchBox id={"username"} onUserInput = {this.handleUserInput} val={this.state.username} placeholder={"Username"}/>
-                              <SearchBox id={"password"} onUserInput = {this.handleUserInput} val={this.state.password} placeholder={"Password"}/>
-                              <button type="button" className="btn btn-w-m btn-success" onClick={this.clickHandlerRegister}>Register</button>
                             </div>
                             <div className="col-lg-2"></div>
                             <div className="col-lg-4">
-                              <SearchBox id={"loginname"} onUserInput = {this.handleUserInput} val={this.state.loginname} placeholder={"Username"}/>
-                              <SearchBox id={"loginpass"} onUserInput = {this.handleUserInput} val={this.state.loginpass} placeholder={"Password"}/>
-                              <button type="button" className="btn btn-w-m btn-success" onClick={this.clickHandlerGetToken}>Login</button>
-                              <button type="button" className="btn btn-w-m btn-success" onClick={this.clickHandlerCallAPI}>Call API</button>
+
                             </div>
                           </div>
                         </div>
@@ -138,7 +130,7 @@ var App = React.createClass({
 });
 
 $(window).load(function(){
-  React.render(<App/>, document.getElementById('content'));
+  React.render(<Home/>, document.getElementById('contentHome'));
 });
 
-module.exports = App;
+module.exports = Home;
